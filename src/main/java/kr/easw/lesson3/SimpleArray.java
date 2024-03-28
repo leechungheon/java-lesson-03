@@ -14,7 +14,7 @@ public class SimpleArray {
         boolean isMatched = true;
         for (int i = 0; i < 10; i++) {
             if (arrays[i] != answer[i]) {
-                System.out.printf("값이 일차하지 않습니다. (인덱스 %d)\n", i);
+                System.out.printf("값이 일치하지 않습니다. (인덱스 %d)\n", i);
                 isMatched = false;
             }
         }
